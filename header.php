@@ -14,6 +14,7 @@
 
     <meta name="description" content="A full-featured discord community server for everything discussions!">
     <meta name="og:title" content="<?= $TITLE ?>">
+    <meta name="og:image" content="<?= $PREFIX ?>/images/logo.jpg">
     <meta name="og:description" content="A full-featured discord community server for everything discussions!">
 
     <title><?= $TITLE ?></title>
