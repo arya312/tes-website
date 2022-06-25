@@ -22,9 +22,6 @@
         <li class="nav-item">
           <a class="nav-link" href="mailto:support@everything-server.ml">Support</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://forms.gle/JCyQtcUQwohAr4X69">Staff Application</a>
-        </li>
       </ul>
     </div>
   </div>
