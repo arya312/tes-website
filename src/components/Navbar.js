@@ -5,7 +5,7 @@ import Logo from "./Logo";
 import { MdMenu } from 'react-icons/md';
 import { useState } from "react";
 import styled from "@emotion/styled";
-import { THEME_COLOR, THEME_COLOR_DARKER } from '../config';
+import { INVITE_URL, THEME_COLOR, THEME_COLOR_DARKER } from '../config';
 
 const links = [
     {
@@ -41,9 +41,9 @@ export default function Navbar() {
     });
 
     return (
-        <nav className="md:flex items-center bg-theme md:px-[15%] py-2 md:m-0 block">
-            <div class="flex md:block items-center">
-                <div class="md:hidden pl-1">
+        <nav className="md:flex items-center bg-theme md:px-[15%] py-2 md:m-0 block z-[1000]">
+            <div className="flex md:block items-center">
+                <div className="md:hidden pl-1">
                     <NavButton onClick={() => setOpen(s => !s)}>
                         <MdMenu size={25} className="px-0" />
                     </NavButton>
@@ -60,13 +60,13 @@ export default function Navbar() {
                 </Link>
             </div>
 
-            <div class={`${open ? '' : 'hidden'} md:flex items-center justify-between w-[100%]`}>
+            <div className={`${open ? '' : 'hidden'} md:flex items-center justify-between w-[100%]`}>
                 <ul className="md:ml-10 md:flex items-center my-3 md:my-0">
                     {links.map(link => <li key={link.name} className="mx-2"><Link href={link.value}><a className={`block py-2 px-3 hover:bg-[#333] rounded ${(router.route === link.value || (/\#|\?/g.test(router.route) && router.route.startsWith(link.value))) ? 'bg-[#333] md:bg-[#252525] md:border-b-2 border-[#f14a60] text-[#f14a60] rounded-b-none' : ''}`} title={link.name}>{link.name}</a></Link></li>)}
                 </ul>
 
                 <div className="ml-auto flex items-center justify-center md:block">
-                    <a href="https://discord.gg/tBf3Bx5Ghm" target="_blank" className="mr-2"><ControlButton variant="outlined">Join</ControlButton></a>
+                    <a href={INVITE_URL} target="_blank" rel="noreferrer" className="mr-2"><ControlButton variant="outlined">Join</ControlButton></a>
                     <Link href="/"><a><ControlButton variant="outlined">Login</ControlButton></a></Link>
                 </div>
             </div>
