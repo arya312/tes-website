@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/onesoft-sudo/tes-website/compare/v0.3.0...v0.4.0) (2022-10-14)
+
+
+### Features
+
+* **navbar:** add top.gg vote link ([ec48878](https://github.com/onesoft-sudo/tes-website/commit/ec48878d19346cad2d156ba29c0d6ee7bc4e118e))
+
+
+
 # [0.3.0](https://github.com/onesoft-sudo/tes-website/compare/v0.2.0...v0.3.0) (2022-10-14)
 
 
