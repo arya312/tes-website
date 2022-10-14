@@ -72,7 +72,7 @@ export default function Navbar() {
 
                 <div className="ml-auto flex items-center justify-center md:block">
                     <a href={INVITE_URL} target="_blank" rel="noreferrer" className="mr-2"><ControlButton variant="outlined">Join</ControlButton></a>
-                    <Link href="/"><a><ControlButton variant="outlined">Login</ControlButton></a></Link>
+                    <a href="https://top.gg/servers/959235580770807898/vote" target="_blank" rel="noreferrer"><ControlButton variant="outlined">Vote</ControlButton></a>
                 </div>
             </div>
         </nav>
