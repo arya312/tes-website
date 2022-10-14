@@ -1,6 +1,6 @@
 .top {
     background-image: url(../images/background.png);
-    height: 100vh;
+    min-height: calc(100vh - 70px);
     width: 100vw;
     background-repeat: no-repeat;
 }

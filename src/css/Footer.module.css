@@ -1,0 +1,61 @@
+.listColumn {
+    list-style: none;
+}
+
+.listColumn li a {
+    cursor: pointer;
+}
+
+.listColumn li a:hover {
+    text-decoration: underline;
+}
+
+.iconLinks {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.iconLinks li a {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    margin: 0 15px 0 0;
+    transition: 0.3s;
+}
+
+.discordIcon {
+    color: #7289da;
+    border-color: #7289da;
+}
+
+.discordIcon:hover {
+    background: #7289da;
+    color: #fff;
+}
+
+.emailIcon {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.emailIcon:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.hammerIcon {
+    color: #f14a60;
+    border-color: #f14a60;
+}
+
+.hammerIcon:hover {
+    background: #f14a60;
+    color: #fff;
+}
