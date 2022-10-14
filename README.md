@@ -14,3 +14,8 @@
 <p align="center">The Everything Server Website.</p>
 </div>
  
+### Contributors 
+Thanks to all contributors!
+
+* [Ar Rakin](https://github.com/virtual-designer)
+* [Raúl Aguilar](https://github.com/raulwwq0)
