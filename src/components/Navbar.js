@@ -2,10 +2,11 @@ import { Button } from "@mui/material";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Logo from "./Logo";
-import { MdMenu } from 'react-icons/md';
+import { MdClose, MdMenu } from 'react-icons/md';
 import { useState } from "react";
 import styled from "@emotion/styled";
 import { INVITE_URL, THEME_COLOR, THEME_COLOR_DARKER } from '../config';
+import styles from '../css/Navbar.module.css';
 
 const links = [
     {
@@ -60,8 +61,12 @@ export default function Navbar() {
                 </Link>
             </div>
 
-            <div className={`${open ? '' : 'hidden'} md:flex items-center justify-between w-[100%]`}>
-                <ul className="md:ml-10 md:flex items-center my-3 md:my-0">
+            <div className={`${open ? styles.open : styles.hidden} transition-[ease-in-out_0.5s] md:transition-none fixed top-0 z-50 h-[100vh] md:h-auto w-[80vw] bg-[#222] md:bg-transparent md:relative md:flex items-center justify-between md:w-[100%]`}>
+                <div className="md:hidden mb-3 flex justify-end pt-2 pr-2">
+                    <NavButton onClick={() => setOpen(false)}><MdClose size={25} /></NavButton>
+                </div>
+
+                <ul className="md:ml-10 md:flex items-center mt-3 mb-10 md:my-0">
                     {links.map(link => <li key={link.name} className="mx-2"><Link href={link.value}><a className={`block py-2 px-3 hover:bg-[#333] rounded ${(router.route === link.value || (/\#|\?/g.test(router.route) && router.route.startsWith(link.value))) ? 'bg-[#333] md:bg-[#252525] md:border-b-2 border-[#f14a60] text-[#f14a60] rounded-b-none' : ''}`} title={link.name}>{link.name}</a></Link></li>)}
                 </ul>
 
