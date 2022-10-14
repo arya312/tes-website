@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/onesoft-sudo/tes-website/compare/v0.5.0...v0.6.0) (2022-10-14)
+
+
+### Features
+
+* add about page ([12d80a7](https://github.com/onesoft-sudo/tes-website/commit/12d80a7048499675226deed2b1ded74b31b4dfe9))
+
+
+
 # [0.5.0](https://github.com/onesoft-sudo/tes-website/compare/v0.4.0...v0.5.0) (2022-10-14)
 
 
