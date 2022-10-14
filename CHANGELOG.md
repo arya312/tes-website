@@ -1,4 +1,13 @@
-# 0.2.0 (2022-10-14)
+# [0.3.0](https://github.com/onesoft-sudo/tes-website/compare/v0.2.0...v0.3.0) (2022-10-14)
+
+
+### Features
+
+* **footer:** add contributors' credit ([cb98080](https://github.com/onesoft-sudo/tes-website/commit/cb98080e63b972f98df6e211c89c64b3acf0f75b))
+
+
+
+# [0.2.0](https://github.com/onesoft-sudo/tes-website/compare/30b36f366e4c79471307becc12eeaf268bf9bb71...v0.2.0) (2022-10-14)
 
 
 ### Features
