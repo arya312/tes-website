@@ -28,6 +28,17 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #0966c9;
+    text-decoration: underline;
+}
+
 :root {
     --theme-gradient: linear-gradient(90deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.15));
     --theme: #f14a60;
@@ -35,6 +46,10 @@ a {
 
 .bg-theme {
     background: var(--theme-gradient);
+}
+
+.text-theme {
+    color: var(--theme);
 }
 
 @media (prefers-color-scheme: dark) {

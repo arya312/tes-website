@@ -11,8 +11,8 @@ export default function Home() {
                 <p className="pt-3 text-lg md:text-3xl">Friendly community - a server for every type of discussions!</p>
                 <br className="md:hidden" />
                 <div className="pt-5 md:pt-5 lg:pt-[60px]">
-                    <a href={INVITE_URL} className="block md:inline-block hover:shadow-[0_0_2px_2px_#f14a60]  py-[12px] px-[24px] md:py-[15px] md:px-[30px] bg-[#cf394d] hover:bg-[#A83343] cursor-pointer rounded mx-2">Join Us</a>
-                    <a className="mt-3 md:mt-0 block md:inline-block hover:shadow-[0_0_2px_2px_#f14a60] py-[12px] px-[24px] md:py-[15px] md:px-[30px] bg-[#cf394d] hover:bg-[#A83343] cursor-pointer rounded mx-2">About</a>
+                    <a href={INVITE_URL} className="block text-white md:inline-block hover:shadow-[0_0_2px_2px_#f14a60]  py-[12px] px-[24px] md:py-[15px] md:px-[30px] bg-[#cf394d] hover:bg-[#A83343] cursor-pointer rounded mx-2">Join Us</a>
+                    <a className="mt-3 md:mt-0 block text-white md:inline-block hover:shadow-[0_0_2px_2px_#f14a60] py-[12px] px-[24px] md:py-[15px] md:px-[30px] bg-[#cf394d] hover:bg-[#A83343] cursor-pointer rounded mx-2">About</a>
                 </div>
             </div>
         </div>
