@@ -12,7 +12,7 @@ export default function Footer() {
                     <div className='text-lg md:text-2xl text-white'>The Everything Server</div>
                     <p><a href='mailto:support@tesworld.eu.org' className='hover:underline'>support@tesworld.eu.org</a></p>
                     <hr className='border-t border-t-[#444] my-3' />
-                    <p>Copyright &copy; The Everything Server {new Date().getFullYear()}, all rights reserved.</p>
+                    <p>Copyright &copy; The Everything Server and <a href="https://github.com/onesoft-sudo/tes-website/graphs/contributors">All Contributors</a> {new Date().getFullYear()}, all rights reserved.</p>
 
                     <br />
 
