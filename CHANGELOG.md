@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/onesoft-sudo/tes-website/compare/v0.9.0...v0.10.0) (2022-10-15)
+
+
+### Features
+
+* add additional meta tags ([2f91221](https://github.com/onesoft-sudo/tes-website/commit/2f91221d5ef053c0084af406c5cfe685dec2bb6a))
+
+
+
 # [0.9.0](https://github.com/onesoft-sudo/tes-website/compare/v0.8.0...v0.9.0) (2022-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add about page ([12d80a7](https://github.com/onesoft-sudo/tes-website/commit/12d80a7048499675226deed2b1ded74b31b4dfe9))
-
-
-
-# [0.5.0](https://github.com/onesoft-sudo/tes-website/compare/v0.4.0...v0.5.0) (2022-10-14)
-
-
-### Features
-
-* add meta tags ([#4](https://github.com/onesoft-sudo/tes-website/issues/4)) ([221a7d3](https://github.com/onesoft-sudo/tes-website/commit/221a7d31317949bd2dc482e6dbdc637fdb0c644c))
 
 
 
