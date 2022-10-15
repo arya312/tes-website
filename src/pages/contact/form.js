@@ -2,9 +2,12 @@ import { Alert, Button, FormControl as MuiFormControl, FormHelperText, Input, In
 import Head from "next/head";
 import { useForm } from "react-hook-form";
 import axios from 'axios';
+import { useState } from "react";
 
 export default function Form() {
     const { register, handleSubmit, formState: { errors } } = useForm();
+    const [message, setMessage] = useState({ message: null, type: 'error' });
+
     const onSubmit = async data => {
         console.log(data);
 
@@ -15,6 +18,15 @@ export default function Form() {
         });
 
         console.log(response);
+
+        if (response.status === 200 && response.data?.success) {
+            setMessage({ message: "Your message has been sent successfully!", type: 'success' });
+        }
+        else {
+            setMessage({ message: `There was an error while trying to send your message. (Code ${response.status ?? -1 })`, type: 'error' });
+        }
+
+        setTimeout(() => setMessage({ message: null, type: 'error' }), 10_000);
     };
 
     return (
@@ -27,6 +39,11 @@ export default function Form() {
             <br />
             <p>Please fill out the form below:</p>
             <br />
+
+            {message?.message && <>
+                <Alert severity={message?.type ?? 'info'}>{message?.message}</Alert>
+                <br />
+            </>}
 
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
