@@ -5,7 +5,10 @@ import MainLayout from '../layouts/MainLayout';
 function MyApp({ Component, pageProps }) {
     const theme = createTheme({
         typography: {
-            fontFamily: "Montserrat"
+            fontFamily: "Montserrat",
+        },
+        palette: {
+            mode: 'dark'
         }
     });
 

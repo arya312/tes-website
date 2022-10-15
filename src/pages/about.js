@@ -1,9 +1,14 @@
-import { Button, Link } from "@mui/material";
-import { INVITE_URL, THEME_COLOR } from "../config";
+import { Button } from "@mui/material";
+import Head from "next/head";
+import { INVITE_URL } from "../config";
 
 export default function About() {
     return (
-        <div className="h-[80vh] py-5 px-5 md:px-[20%]">
+        <div className="min-h-[80vh] py-5 px-5 md:px-[20%]">
+            <Head>
+                <title>About Us - The Everything Server</title>
+            </Head>
+
             <h1 className="text-2xl md:text-3xl">About Us</h1>
             <br />
 
@@ -20,7 +25,7 @@ export default function About() {
                 We need support from you guys &mdash; really. We'll be very glad you <a className="link" href={INVITE_URL}>join us</a>. Also <a className="link" href="https://top.gg/servers/959235580770807898/vote">a simple vote</a> would help us so much.
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 mt-5 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-3 py-5 gap-5">
                 <Button size="large" href={INVITE_URL} variant="outlined">Join Us</Button>
                 <Button size="large" href="https://top.gg/servers/959235580770807898/vote" variant="outlined">Vote</Button>
                 <Button size="large" href="/contact" variant="outlined">Contact</Button>

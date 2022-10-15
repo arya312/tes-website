@@ -52,7 +52,7 @@ export default function Navbar() {
 
                 <Link href="/">
                     <a className="inline-flex items-center md:flex md:my-2 mr-3 ml-2 md:mx-0">
-                        <Logo className="rounded-md md:rounded" /> 
+                        <Logo className="rounded-lg" /> 
                         <div className="inline-block ml-2 font-bold md:w-[25ch]" style={{ color: THEME_COLOR }}>
                             <span className="hidden md:inline">The Everything Server</span>
                             <span className="md:hidden">TES</span>
@@ -67,7 +67,7 @@ export default function Navbar() {
                 </div>
 
                 <ul className="md:ml-10 md:flex items-center mt-3 mb-10 md:my-0">
-                    {links.map(link => <li key={link.name} className="mx-2"><Link href={link.value}><a className={`block py-2 px-3 text-white hover:bg-[#333] rounded ${(router.route === link.value || (/\#|\?/g.test(router.route) && router.route.startsWith(link.value))) ? 'bg-[#333] md:bg-[#252525] md:border-b-2 border-[#f14a60] text-[#f14a60] rounded-b-none' : ''}`} title={link.name}>{link.name}</a></Link></li>)}
+                    {links.map(link => <li key={link.name} className="mx-2"><Link href={link.value}><a onClick={() => setOpen(false)} className={`block py-2 px-3 text-white hover:bg-[#333] rounded ${(router.route === link.value || (/\#|\?/g.test(router.route) && router.route.startsWith(link.value))) ? 'bg-[#333] md:bg-[#252525] md:border-b-2 border-[#f14a60] text-[#f14a60] rounded-b-none' : ''}`} title={link.name}>{link.name}</a></Link></li>)}
                 </ul>
 
                 <div className="ml-auto flex items-center justify-center md:block">
