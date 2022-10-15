@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/onesoft-sudo/tes-website/compare/v0.8.0...v0.9.0) (2022-10-15)
+
+
+### Features
+
+* **form:** add confirmation alert ([08cdeb9](https://github.com/onesoft-sudo/tes-website/commit/08cdeb99398148e76012c0d722fd8e0e3392a506))
+
+
+
 # [0.8.0](https://github.com/onesoft-sudo/tes-website/compare/v0.7.0...v0.8.0) (2022-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add meta tags ([#4](https://github.com/onesoft-sudo/tes-website/issues/4)) ([221a7d3](https://github.com/onesoft-sudo/tes-website/commit/221a7d31317949bd2dc482e6dbdc637fdb0c644c))
-
-
-
-# [0.4.0](https://github.com/onesoft-sudo/tes-website/compare/v0.3.0...v0.4.0) (2022-10-14)
-
-
-### Features
-
-* **navbar:** add top.gg vote link ([ec48878](https://github.com/onesoft-sudo/tes-website/commit/ec48878d19346cad2d156ba29c0d6ee7bc4e118e))
 
 
 
