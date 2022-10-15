@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/onesoft-sudo/tes-website/compare/v0.7.0...v0.8.0) (2022-10-15)
+
+
+### Features
+
+* add 404 page ([9a16dd2](https://github.com/onesoft-sudo/tes-website/commit/9a16dd24946fd9c5bbdf19bf736b09bd4fb91105))
+
+
+
 # [0.7.0](https://github.com/onesoft-sudo/tes-website/compare/v0.6.0...v0.7.0) (2022-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **navbar:** add top.gg vote link ([ec48878](https://github.com/onesoft-sudo/tes-website/commit/ec48878d19346cad2d156ba29c0d6ee7bc4e118e))
-
-
-
-# [0.3.0](https://github.com/onesoft-sudo/tes-website/compare/v0.2.0...v0.3.0) (2022-10-14)
-
-
-### Features
-
-* **footer:** add contributors' credit ([cb98080](https://github.com/onesoft-sudo/tes-website/commit/cb98080e63b972f98df6e211c89c64b3acf0f75b))
 
 
 
