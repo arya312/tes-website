@@ -23,4 +23,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
       
     - run: npm install -D
-    - run: CI=false npm run build --if-present
+    
+    - run: sh -c "cd frontend && npm install -D"
+    - run: sh -c "cd backend && npm install -D"
+    - run: CI=false npm run frontend:build --if-present
+    - run: CI=false npm run backend:build --if-present
+
+    
