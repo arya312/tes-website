@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/onesoft-sudo/tes-website/compare/v0.12.0...v1.1.1) (2022-10-16)
+
+
+### Bug Fixes
+
+* package,json version ([79f2366](https://github.com/onesoft-sudo/tes-website/commit/79f2366e6770a64edb66ae2e83869be296c3bcfa))
+
+
+
 # [0.12.0](https://github.com/onesoft-sudo/tes-website/compare/v1.0.0...v0.12.0) (2022-10-16)
 
 
@@ -39,15 +48,6 @@
 ### Features
 
 * add additional meta tags ([2f91221](https://github.com/onesoft-sudo/tes-website/commit/2f91221d5ef053c0084af406c5cfe685dec2bb6a))
-
-
-
-# [0.9.0](https://github.com/onesoft-sudo/tes-website/compare/v0.8.0...v0.9.0) (2022-10-15)
-
-
-### Features
-
-* **form:** add confirmation alert ([08cdeb9](https://github.com/onesoft-sudo/tes-website/commit/08cdeb99398148e76012c0d722fd8e0e3392a506))
 
 
 
