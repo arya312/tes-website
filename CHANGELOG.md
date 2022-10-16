@@ -1,3 +1,12 @@
+# [0.12.0](https://github.com/onesoft-sudo/tes-website/compare/v1.0.0...v0.12.0) (2022-10-16)
+
+
+### Features
+
+* **backend:** basic routing and controllers ([2ebaca0](https://github.com/onesoft-sudo/tes-website/commit/2ebaca06b3246941cd5abf48e0cd820321fe131f))
+
+
+
 # [1.0.0](https://github.com/onesoft-sudo/tes-website/compare/v0.11.0...v1.0.0) (2022-10-16)
 
 
@@ -39,15 +48,6 @@
 ### Features
 
 * **form:** add confirmation alert ([08cdeb9](https://github.com/onesoft-sudo/tes-website/commit/08cdeb99398148e76012c0d722fd8e0e3392a506))
-
-
-
-# [0.8.0](https://github.com/onesoft-sudo/tes-website/compare/v0.7.0...v0.8.0) (2022-10-15)
-
-
-### Features
-
-* add 404 page ([9a16dd2](https://github.com/onesoft-sudo/tes-website/commit/9a16dd24946fd9c5bbdf19bf736b09bd4fb91105))
 
 
 
