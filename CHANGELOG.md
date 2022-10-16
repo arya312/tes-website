@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/onesoft-sudo/tes-website/compare/v0.10.0...v0.11.0) (2022-10-16)
+
+
+### Features
+
+* setup frontend ([85199e2](https://github.com/onesoft-sudo/tes-website/commit/85199e28b682d5525ee9b4dd9738ac7fec45ab70))
+
+
+
 # [0.10.0](https://github.com/onesoft-sudo/tes-website/compare/v0.9.0...v0.10.0) (2022-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * complete all pages ([f0022fe](https://github.com/onesoft-sudo/tes-website/commit/f0022fec76a609dc1fe6e3239878f13da1efcdd9))
-
-
-
-# [0.6.0](https://github.com/onesoft-sudo/tes-website/compare/v0.5.0...v0.6.0) (2022-10-14)
-
-
-### Features
-
-* add about page ([12d80a7](https://github.com/onesoft-sudo/tes-website/commit/12d80a7048499675226deed2b1ded74b31b4dfe9))
 
 
 
