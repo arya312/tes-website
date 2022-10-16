@@ -1,6 +1,10 @@
 {
-  "name": "tes-website-backend",
-  "scripts": {
-    
-  }
+	"name": "tes-website-backend",
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2"
+	}
 }
