@@ -1,13 +1,10 @@
 {
-  "name": "tes-website",
-  "version": "0.10.0",
-  "private": true,
+  "name": "tes-website-frontend",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prepare": "husky install"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",

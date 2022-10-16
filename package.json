@@ -1,4 +1,15 @@
 {
+  "name": "tes-website",
+  "version": "0.10.0",
+  "private": true,
+  "scripts": {
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:start": "cd frontend && npm run start",
+    "frontend:lint": "cd frontend && npm run lint",
+    "frontend:install": "cd frontend && npm i -D",
+    "prepare": "husky install"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
