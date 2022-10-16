@@ -1,6 +1,6 @@
 {
   "name": "tes-website",
-  "version": "1.0.0",
+  "version": "0.11.0",
   "author": {
     "name": "Ar Rakin",
     "email": "rakinar2@onesoftnet.eu.org",
@@ -13,6 +13,8 @@
     "frontend:start": "cd frontend && npm run start",
     "frontend:lint": "cd frontend && npm run lint",
     "frontend:install": "cd frontend && npm i -D",
+    "backend:install": "cd backend && npm i -D",
+    "backend:start": "cd backend && npm start",
     "prepare": "husky install"
   },
   "devDependencies": {
