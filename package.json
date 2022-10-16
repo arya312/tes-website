@@ -1,6 +1,11 @@
 {
   "name": "tes-website",
   "version": "0.11.0",
+  "author": {
+    "name": "Ar Rakin",
+    "email": "rakinar2@onesoftnet.eu.org",
+    "url": "https://virtual-designer.github.io"
+  },
   "private": true,
   "scripts": {
     "frontend:dev": "cd frontend && npm run dev",
