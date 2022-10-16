@@ -1,3 +1,20 @@
+# [1.0.0](https://github.com/onesoft-sudo/tes-website/compare/v0.11.0...v1.0.0) (2022-10-16)
+
+
+### Bug Fixes
+
+* conflicts ([78fbbc6](https://github.com/onesoft-sudo/tes-website/commit/78fbbc67ea6ce7501a7a4beb4fe99106fe0a9302))
+
+
+* feat!: add backend ([59ae56f](https://github.com/onesoft-sudo/tes-website/commit/59ae56f276dd3fe2ad7988ce2f03519a43b30e6b))
+
+
+### BREAKING CHANGES
+
+* Whole project structure has been changed now.
+
+
+
 # [0.11.0](https://github.com/onesoft-sudo/tes-website/compare/v0.10.0...v0.11.0) (2022-10-16)
 
 
@@ -31,15 +48,6 @@
 ### Features
 
 * add 404 page ([9a16dd2](https://github.com/onesoft-sudo/tes-website/commit/9a16dd24946fd9c5bbdf19bf736b09bd4fb91105))
-
-
-
-# [0.7.0](https://github.com/onesoft-sudo/tes-website/compare/v0.6.0...v0.7.0) (2022-10-15)
-
-
-### Features
-
-* complete all pages ([f0022fe](https://github.com/onesoft-sudo/tes-website/commit/f0022fec76a609dc1fe6e3239878f13da1efcdd9))
 
 
 
