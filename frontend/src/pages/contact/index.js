@@ -1,8 +1,26 @@
 import Head from "next/head";
+import { Button } from "@mui/material";
 import Link from "next/link";
 import { MAILBOT_URL } from "../../config";
+import styled from "@emotion/styled";
+import { INVITE_URL, THEME_COLOR, THEME_COLOR_DARKER } from "../../config";
+
 
 export default function Contact() {
+    const  NavButton = styled(Button)({
+        minWidth: `20px`,
+        overflow: 'hidden',
+        color: THEME_COLOR
+        
+    });
+    const ControlButton = styled(Button)({
+        color: THEME_COLOR,
+        outlineColor: THEME_COLOR,
+        borderColor: THEME_COLOR,
+        ":hover": {
+            borderColor: THEME_COLOR_DARKER
+        }
+    });
     return (
         <>
             <Head>
@@ -14,13 +32,17 @@ export default function Contact() {
                 <br />
 
                 <p>You may contact us using the following methods:</p>
-                
-                <ul className="list-disc pl-5 pt-5">
-                    <li><a className="link" href="mailto:support@tesworld.eu.org">Email Support</a></li>
-                    <li><a className="link" href="mailto:webmaster@tesworld.eu.org">Email Webmaster</a>; (for problems related to this website)</li>
-                    <li><a className="link" href={MAILBOT_URL}>Message via MailBot</a></li>
-                    <li><Link href="/contact/form"><a className="link">Contact Form</a></Link></li>
-                </ul>
+                <br />
+                <br />
+                <div className="ml-auto flex items-center justify-center md:block">
+                    <div><a className="link" href="mailto:support@tesworld.eu.org" target="_blank" rel="noreferrer" ><ControlButton variant="outlined">Email Support</ControlButton></a></div>
+                    <br />
+                    <div><a className="link" href="mailto:webmaster@tesworld.eu.org" target="_blank" rel="noreferrer"><ControlButton variant="outlined">Email Webmaster</ControlButton></a></div>
+                    <br />
+                    <div><a className="link" href={MAILBOT_URL} target="_blank" rel="noreferrer"><ControlButton variant="outlined">MailBot</ControlButton></a></div>
+                    <br />
+                    <div><Link href="/contact/form"><a href="https://top.gg/servers/959235580770807898/vote" className="link" target="_blank" rel="noreferrer"><ControlButton variant="outlined">Contact Form</ControlButton></a></Link></div>
+                </div>
             </div>
         </>
     );
